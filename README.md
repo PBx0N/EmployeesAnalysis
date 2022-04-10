@@ -4,9 +4,10 @@ SQL schemas and scripts to analyse employees data
 
 The ERD diagram shows the relationship of the data within the 6 csv files in "data folder".
 
-The SQL schemas file will import each CSV file into the corresponding SQL table. 
+The EmployeesSchemasSQL file will import each CSV file into the corresponding SQL table. 
 
-The SQL script file will do the following:
+The EmployeesAnalysisSQL script file will do the following:
+
   - List the following details of each employee: employee number, last name, first name, sex, and salary.
   - List first name, last name, and hire date for employees who were hired in 1986.
   - List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
